@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color: rgb(2, 2, 38);
+    }
+  
+
+
+    #heading{
+  
+       
+        font-size: 1.5rem;
+       color: rgb(239, 230, 217);
+        font-family:italic;
+       text-align: center;
+       padding-left: 21rem;
+       padding-top: .8rem;
+    }
+    /* .nav{
+       position: fixed;
+    } */
+   ul #heading{
+    float:left
+   }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #261746;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(229, 214, 214);
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #494040;
+  font-size: 1.15rem;
+}
+.buttonAlign{
+    display: flex;
+    justify-content: end;
+    align-items:end;
+   
+}
+
+.button{
+   height: 3rem;
+   width: 6.5rem;
+    background-color: rgb(85, 116, 105);
+    margin: 1.5rem;
+    border: 1px red solid;
+    border-radius: 0.8rem;
+
+   
+    
+}
+
+.button:hover{
+    cursor: pointer;
+  
+}
+
+.firstsection{
+    color: rgb(29, 100, 161);
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem;
+  
+   
+    border: 2px solid rgb(47, 252, 57);
+  
+
+    
+}
+#element{
+    color: rgb(195, 11, 167);
+}
+
+.left{
+   
+ font-size: 1.5rem;
+    
+
+   
+
+}
+.left >div{
+    margin-top: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+
+.purple{
+    color: rgb(220, 10, 220);
+    font-size: 1.6rem;font-style: italic;
+}
+
+.right >img{
+    
+    height:17rem;
+    
+    
+}
+
+.horizontalLine{
+    border: 2px grey solid;
+    border-radius: 2px;
+    margin-left: 2%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+    width: 97%;
+   
+}
+ 
+
+.secondSection, .thirdSection,.sectionSkill,.educationSection,.contactSection{
+margin-top: 3rem;
+ 
+
+}
+.Experience >img{
+height:1.6rem;
+
+}
+.Projects >img,.skills > img{
+    height:1.6rem;
+}
+.Education >img{
+    height:1.6rem;
+}
+.conatct >img{
+     height:1.6rem;
+}
+
+
+.Experience, .Projects ,.skills,.conatct{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.ProjectsHeading ,.ExperienceHeading,.skillsHeading,.experienceHeading,.conactHeading {
+    color: antiquewhite;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  
+
+
+}
+
+.box,.Skillsbox,.contactBox{
+     border-top: 2px grey solid;
+    border-radius: 2px;
+    margin-left: 4%;
+  
+    width: 92%;
+    display: flex;
+ 
+  
+    justify-content: space-around;
+   
+   
+}
+
+
+.vertical{
+     border: 1px rgb(156, 138, 138) solid;
+    border-radius: 2px;
+    height: 4rem;
+   
+   
+
+}
+
+
+
+.boxContent,.SkillsBoxContent {
+ display: flex;
+flex-direction: row;
+justify-content:space-around;
+ color: rgb(194, 201, 140);
+}
+
+
+.listSkills{
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.skillsHeading{
+    
+    margin-right: 10rem;
+}
+
+
+.skillsNames>img{
+    height: 2rem;
+}
+.skillsNames{
+    display: flex;
+   
+    color: rgb(12, 1, 6);
+    margin-left: 6rem;
+
+
+}
+
+.skillsTopic{
+    border: 2px rgb(186, 26, 26) solid;
+     font-size: 0.8rem;
+     border-radius: 1rem;
+text-align: center;
+     background-color: azure;
+     margin-left: 0.4rem;
+     height: 1rem;
+     width:3.5rem
+
+     
+}
+
+
+
+
+
+.ProjectTitleYear,.experienceTitleYear,.educationTitleYear{
+   
+    display: flex;
+
+ 
+ 
+
+    justify-content: space-around;
+   
+}
+.experienceTitleYear ,.ProjectTitleYear,.educationTitleYear{
+    color: rgb(142, 146, 150);
+}
+
+.ProjectTitleDes, .experienceTitleDes,.experienceTitleDes{
+
+   display: flex;
+
+
+
+}
+.educationSchool{
+    color: rgb(147, 173, 173);
+}
+
+
+.ProjectTitleDes >div,.experienceTitleDes >div{
+color: rgb(185, 197, 207);
+
+margin: 0.7rem;
+}
+
+.contactSection{
+    margin-bottom: 10rem;
+}
+
+.conatct{
+    margin-bottom: 1rem;
+}
+
+.contactItem{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.contactLink a img{
+    height: 2.5rem;
+    
+}
+
+
+.boxe{
+    border-top: 0.2rem grey solid;
+    margin-top: 2rem;
+    width: 95%;
+    margin-left: 3%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.verticalLeft{
+    border:1px rgb(122, 118, 126) solid;
+    height: 4rem;
+}
+.verticalRight{
+    border:1px rgb(122, 118, 126) solid;
+    height: 4rem; ;
+}
+
+.skillsContent{
+    display: flex;
+    justify-content: space-around;
+}
+.verticalLeftContent{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    
+}
+.skillsItem{
+    display: flex;
+    
+   
+}
+.skillsItem img{
+    height: 1.7rem;
+}
+.skillsItemHeading{
+      border: 2px rgb(186, 26, 26) solid;
+     font-size: 0.8rem;
+     border-radius: 1rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: azure;
+   
+     height: 1.8rem;
+     width:5.9rem
+
+}
+.one{
+     
+     /* height:15rem; */
+     width:10rem
+}
+.SkillsBoxContent{
+    margin-bottom: 1rem;
+}
+
+
+
+
